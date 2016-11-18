@@ -32,3 +32,15 @@ git push origin :refs/tags/v1.0
 ====================================
 
 git log --graph
+
+====================================
+
+git fetch --all
+git reset --hard origin/master
+放弃本地修改 强制更新
+没有进入版本控制新增文件不影响， git add .索引文件会被删除
+已经commit但没有push的文件也可以恢复
+
+
+git checkout xxxxx
+覆盖工作已经修改的文件
