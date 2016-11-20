@@ -44,3 +44,16 @@ git reset --hard origin/master
 
 git checkout xxxxx
 覆盖工作已经修改的文件
+
+====================================
+
+
+【追踪分支】
+git checkout -b [分支名] [远程名]/[分支名]
+创建分支并建立追踪关系；
+
+git branch xxxx
+本地创建分支，但是没有和远程建立追踪关系；
+git push --set-upstream origin xxxx
+推送到远程并和远程建立追踪关系
+
