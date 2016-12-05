@@ -57,3 +57,33 @@ git branch xxxx
 git push --set-upstream origin xxxx
 推送到远程并和远程建立追踪关系
 
+
+====================================
+
+
+$ git remote add oscorigin https://git.oschina.net/505462881/GitLeern.git
+
+
+$ git remote -v
+origin  https://github.com/zhangxiaobo/gitlearn.git (fetch)
+origin  https://github.com/zhangxiaobo/gitlearn.git (push)
+oscorigin       https://git.oschina.net/505462881/GitLeern.git (fetch)
+oscorigin       https://git.oschina.net/505462881/GitLeern.git (push)
+
+
+$ git push oscorigin
+
+
+$ git push --all oscorigin
+
+
+$ git branch -a
+* master
+  newA1123
+  newA123
+  remotes/origin/master
+  remotes/origin/newA1123
+  remotes/origin/newA123
+  remotes/oscorigin/master
+  remotes/oscorigin/newA1123
+  remotes/oscorigin/newA123
