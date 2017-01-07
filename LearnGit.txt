@@ -87,3 +87,5 @@ $ git branch -a
   remotes/oscorigin/master
   remotes/oscorigin/newA1123
   remotes/oscorigin/newA123
+
+$ git remote rm oscorigin
